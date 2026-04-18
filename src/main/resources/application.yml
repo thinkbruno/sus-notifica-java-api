@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: sus-notifica-java-api
+
+sus:
+  api:
+    url: ${SUS_API_URL}
+    service: ${SUS_API_SERVICE}
+    user: ${SUS_API_USER}
+    pass: ${SUS_API_PASS}
+
+server:
+  port: ${SERVER_PORT:8080}
